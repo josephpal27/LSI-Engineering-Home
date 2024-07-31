@@ -264,7 +264,7 @@
 
   /* Customized Solutions Starts Here */
   .customized-solutions{
-    background-image: url('images/bg3.png');
+    background-image: url('images/bg3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem 0 2rem 0;
@@ -303,6 +303,12 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     overflow: hidden;
     border: none;
+  }
+  .customized-solutions-container .cards-row .card img{
+    transition: all 0.3s ease;
+  }
+  .customized-solutions-container .cards-row .card img:hover{
+    scale: 1.02;
   }
   .customized-solutions-container .cards-row .card h2{
     font-size: 1.5rem;
@@ -486,7 +492,7 @@
 
   /* Interesting Facts Section Starts Here  */
   .interesting-facts{
-    background-image: url('images/bg4.png');
+    background-image: url('images/bg4.webp');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0;
