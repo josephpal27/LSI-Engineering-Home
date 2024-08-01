@@ -215,17 +215,17 @@
     margin-top: 1.5rem;
   }
   .leading-company .leading-text span{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: "Montserrat", sans-serif;
   }
   .leading-company .leading-text h5{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .leading-company .leading-text h5:nth-child(2){
     margin-bottom: 1.5rem;
   }
   .leading-company .leading-text p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
   }
@@ -522,7 +522,26 @@
   }
   .interesting-facts-container .fact-img-row .fact-img img{
     width: 100%;
+    border-radius: 50px;
+    position: relative;
   }
+
+
+
+  .interesting-facts-container .fact-img-row .fact-img h2{
+    position: absolute;
+    top: 6%;
+    left: 39%;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: #ec9122;
+  }
+  .interesting-facts-container .fact-img-row .fact-img h2 i{
+    font-size: 1.5rem;
+    padding: 2px 0 0 6px;
+  }
+    
   /* Interesting Facts Section Ends Here  */
 
 
@@ -688,7 +707,7 @@
   .footer .center button{
     position: absolute;
     left: 75%;
-    top: 40%;
+    top: 46%;
     border: none;
     outline: none;
     font-size: 0.8rem;
@@ -723,20 +742,21 @@
   .footer .end div{
    margin-bottom: 1rem;
   }
-  .footer .end img{
+  /* .footer .end img{
    width: 30px;
    margin-left: 90%;
    margin-top: 1.3rem;
    cursor: pointer;
    transition: all 0.3s ease;
-  }
-  .footer .end img:hover{
+  } */
+  /* .footer .end img:hover{
    scale: 1.1;
-  }
+  } */
   .footer-line .line{
     width: 100%;
     height: 1.5px;
     background-color: #fff;
+    margin-top: 1rem;
   }
   .copyright{
    display: flex;
@@ -744,6 +764,21 @@
    color: #fff;
    margin-top: 7px;
    font-size: 0.9rem;
+  }
+
+  #back-to-top{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.3s ease;
+  }
+  #back-to-top:hover{
+      scale: 1.1;
   }
 
 /* Footer Styles Ends Here */
