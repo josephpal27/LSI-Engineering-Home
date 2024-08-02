@@ -52,6 +52,7 @@
   /* Nav Styles Starts Here */
   nav {
     padding: 12px 0 !important;
+    font-family: "Montserrat", sans-serif !important;
   }
   nav .nav-link {
     font-weight: 500;
