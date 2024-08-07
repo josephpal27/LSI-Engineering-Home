@@ -114,89 +114,6 @@
   /* Top Image Section Ends Here */
 
 
-  /* Top Cards Section Starts Here */
-  .top-cards-background{
-    position: relative;
-    /* overflow-x: hidden;
-    overflow-y: visible; */
-  }
-  .top-cards-background img{
-    width: 100%;
-  }
-
-  .top-cards-row{
-    display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
-    flex-wrap: wrap;
-    position: absolute;
-    width: 100%;
-    bottom: 32%;
-    left: 6%;
-  }
-
-  .top-cards-row .card{
-    width: 19%;
-    overflow: hidden;
-    margin: 0 0.5%;
-  }
-  .top-cards-row .card img{
-    width: 100%;
-  }
-  .top-cards-row .card .head{
-    padding: 10px 15px;
-  }
-  .top-cards-row .card .head h2{
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-  }
-  .top-cards-row .card .desc{
-    padding: 0 8px;
-  }
-  .top-cards-row .card .desc p{
-    font-size: 0.6rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    text-align: center;
-  }
-  .top-cards-row .card button{
-    outline: none;
-    border: none;
-    background-color: transparent;
-    padding: 1px 0 20px 0;
-  }
-  .top-cards-row .card button a{
-    text-decoration: none;
-    color: #000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 0.7rem;
-  }
-  .top-cards-row .card button i{
-    color: #ec9122;
-    padding-left: 3px;
-  }
-
-  .top-cards-row .card:nth-child(4) p{
-    padding: 20px 8px 0 8px;
-  }
-  /* Top Cards Section Ends Here */
-
-
-  /* @media (max-width: 768px) {
-    .top-cards-row .card {
-      width: 45%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .top-cards-row .card {
-      width: 100%;
-    }
-  } */
-
-
 
   /* Leading Company Section Starts Here */
   .leading-company{
@@ -240,27 +157,68 @@
   .leading-company .team-img img{
     width: 100%;
   }
-  .leading-company button{
-    border: none;
-    outline: none;
-    background-color: #ec9122;
-    padding: 10px 0;
-    position: absolute;
-    bottom: -15rem;
-    left: 44%;
-    border-radius: 5px;
-    transition: all 0.2s ease;
-  }
-  .leading-company button:hover{
-    background-color: #d27300;
-  }
-  .leading-company button a{
-    color: #fff;
-    text-decoration: none;
-    padding: 0 20px;
-    font-weight: 500;
-  }
   /* Leading Company Section Ends Here */
+
+
+  /* Top Cards Section Starts Here */
+  .top-cards-background{
+    background-image: url('images/bg2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+    overflow: hidden;
+    margin-top: 17rem;
+  }
+
+  .top-cards-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    flex-wrap: wrap;
+  }
+
+  .top-cards-row .card{
+    width: 19%;
+    overflow: hidden;
+  }
+  .top-cards-row .card img{
+    width: 100%;
+  }
+  .top-cards-row .card .head{
+    padding: 15px;
+  }
+  .top-cards-row .card .head h2{
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .top-cards-row .card .desc{
+    padding: 0 8px;
+  }
+  .top-cards-row .card .desc p{
+    font-size: 0.6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+  .top-cards-row .card:nth-child(4) p{
+    padding: 20px 8px 0 8px;
+  }
+  /* Top Cards Section Ends Here */
+
+
+  /* @media (max-width: 768px) {
+    .top-cards-row .card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .top-cards-row .card {
+      width: 100%;
+    }
+  } */
 
 
   /* Customized Solutions Starts Here */
@@ -269,7 +227,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem 0 2rem 0;
-    margin-top: 19rem;
+    margin-top: 0rem;
   }
 
   .customized-solutions-container .head{
